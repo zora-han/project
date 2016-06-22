@@ -146,7 +146,6 @@ $(function(){
 /*每个模块的切换*/
 $(function(){
     var show=0;
-    console.log($(".tab_box>div"));
     if(window.localStorage){
         var tabShow=localStorage.getItem("which");
         if(tabShow==null||tabShow==29){
